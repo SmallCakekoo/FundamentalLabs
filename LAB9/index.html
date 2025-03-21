@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Glowr | Social Network</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/icono.ico">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="header">
+                <img alt="User profile picture" height="50" src="img/profile.jpeg" width="50" />
+                <h2>
+                    Skibidi Sigma Ponmi
+                </h2>
+            </div>
+            <div class="search">
+                <i class="fa fa-search"></i>
+                <input class="buscarinput" placeholder="Search to start new chat" type="text" />
+            </div>
+            <div class="contacts">
+                <div class="contact">
+                    <img alt="Contact profile picture" height="40" src="img/profile1.jpeg" width="40" />
+                    <div class="name">
+                        Digital Fortnite
+                    </div>
+                </div>
+                <div class="contact">
+                    <img alt="Contact profile picture" height="40" src="img/profile2.jpeg" width="40" />
+                    <div class="name">
+                        Chamba
+                        Free
+                    </div>
+                </div>
+                <div class="contact">
+                    <img alt="Contact profile picture" height="40" src="img/profile3.jpeg" width="40" />
+                    <div class="name">
+                        Gigachad Rizz
+                    </div>
+                </div>
+                <div class="contact activo">
+                    <img alt="Contact profile picture" height="40" src="img/profile4.jpeg" width="40" />
+                    <div class="name">
+                        Ohmygodfloo
+                    </div>
+                </div>
+                <div class="contact">
+                    <img alt="Contact profile picture" height="40" src="img/profile5.jpeg" width="40" />
+                    <div class="name">
+                        XXXTenteishion
+                    </div>
+                </div>
+                <div class="contact">
+                    <img alt="Contact profile picture" height="40" src="img/profile6.jpeg" width="40" />
+                    <div class="name">
+                        Hotmail Lionel
+                    </div>
+                </div>
+                <div class="contact">
+                    <img alt="Contact profile picture" height="40" src="img/profile7.jpeg" width="40" />
+                    <div class="name">
+                        Ronaldo Junior
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat">
+            <div class="header">
+                <div class="user-info">
+                    <img alt="User profile picture" height="50" src="img/profile4.jpeg" width="50" />
+                    <div>
+                        <h3>
+                            Ohmygodfloo
+                        </h3>
+                        <p>
+                            Chat Online
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="messages">
+
+                <!-- los mensajes dse muestran aquí. -->
+                <!-- <div class="message sendme">
+                    <div class="content sendme">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sunt.
+                        </p>
+                    </div>
+                    <img alt="User profile picture" height="40" src="img/profile.jpeg" width="40" />
+                </div>
+                <div class="message">
+                    <img alt="User profile picture" height="40" src="img/profile4.jpeg" width="40" />
+                    <div class="content sent">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur hello adipisicing elit. Mollitia, sunt.
+                        </p>
+                    </div>
+                </div> -->
+
+            </div>
+            <div class="input">
+
+                <form class="inputuser2" onsubmit="sendMessage(event, 'user2')">
+                    <img src="img/profile4.jpeg" alt="Ohmygodfloo" class="profile-pic">
+                    <input placeholder="Type a message..." type="text" required />
+                    <button class="inputuserbtn2" type="submit">
+                        Send
+                    </button>
+                </form>
+
+                <form class="inputuser1" onsubmit="sendMessage(event, 'user1')">
+                    <img src="img/profile.jpeg" alt="tú" class="profile-pic">
+                    <input placeholder="Type a message..." type="text" required />
+                    <button class="inputuserbtn1" type="submit">
+                        Send
+                    </button>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
