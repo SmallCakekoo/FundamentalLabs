@@ -17,8 +17,6 @@ Este repositorio contiene los laboratorios de la materia **Fundamentos de Progra
 | **LAB10**         | JavaScript   | Oct 12, 2024        |
 | **LAB11**         | JavaScript   | Oct 28, 2024        |
 | **LAB12**         | JavaScript   | Nov 4, 2024         |
-| **EntregaParcial2** | HTML       | Oct 30, 2024        |
-| **Parcial-Avances** | HTML       | Oct 9, 2024         |
 
 ## 🌟 Mis laboratorios favoritos  
 - **Lab10** - (To do List)  | JavaScript (Oct 12, 2024)  
